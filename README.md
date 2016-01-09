@@ -3,6 +3,9 @@
 Sistema de eventos encomendado pela Morena
 
 [![Build Status](https://travis-ci.org/macndesign/wttd.svg?branch=master)](https://travis-ci.org/macndesign/wttd)
+[![Code Climate](https://codeclimate.com/github/macndesign/wttd/badges/gpa.svg)](https://codeclimate.com/github/macndesign/wttd)
+[![Issue Count](https://codeclimate.com/github/macndesign/wttd/badges/issue_count.svg)](https://codeclimate.com/github/macndesign/wttd)
+
 
 ## Como desenvolver?
 
