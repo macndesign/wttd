@@ -1,0 +1,5 @@
+[run]
+source = eventex
+
+[report]
+omit = */migrations/*,eventex/core/apps.py,eventex/wsgi.py
