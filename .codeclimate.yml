@@ -1,6 +1,5 @@
-engines:
-  hlint:
-    enabled: true
-ratings:
-  paths:
-  - "**.hs"
+languages:
+  Javascript: false
+  Python: true
+exclude_paths:
+  - eventex/**/tests/*
