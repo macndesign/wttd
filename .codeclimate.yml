@@ -1,5 +1,7 @@
-languages:
-  Javascript: false
-  Python: true
-exclude_paths:
-  - eventex/**/tests/*
+engines:
+  pep8:
+    enabled: true
+
+ratings:
+   paths:
+   - "**.py"
