@@ -29,6 +29,8 @@ var/
 .idea
 *.sqlite3
 staticfiles
+.ipynb_checkpoints/
+.wttd/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

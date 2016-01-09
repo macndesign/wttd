@@ -4,7 +4,6 @@ Sistema de eventos encomendado pela Morena
 
 [![Build Status](https://travis-ci.org/macndesign/wttd.svg?branch=master)](https://travis-ci.org/macndesign/wttd)
 [![Code Climate](https://codeclimate.com/github/macndesign/wttd/badges/gpa.svg)](https://codeclimate.com/github/macndesign/wttd)
-[![Issue Count](https://codeclimate.com/github/macndesign/wttd/badges/issue_count.svg)](https://codeclimate.com/github/macndesign/wttd)
 [![Coverage Status](https://coveralls.io/repos/macndesign/wttd/badge.svg?branch=master&service=github)](https://coveralls.io/github/macndesign/wttd?branch=master)
 
 
@@ -21,7 +20,7 @@ git clone git@github.com:macndesign/wttd.git wttd
 cd wttd
 python -m venv .wttd
 source .wttd/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 cp contrib/env-sample .env
 python manage.py test
 ```
