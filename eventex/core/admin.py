@@ -18,19 +18,16 @@ class SpeakerModelAdmin(admin.ModelAdmin):
     website_link.allow_tags = True
     website_link.short_description = 'website'
 
-
     def photo_img(self, obj):
         return '<img width="32px" src="{}">'.format(obj.photo)
 
     def email(self, obj):
         return obj.contact_set.emails().first()
-        # return obj.contact_set(manager='emails').first()
 
     email.short_description = 'e-mail'
 
     def phone(self, obj):
         return obj.contact_set.phones().first()
-        # return obj.contact_set(manager='phones').first()
 
     phone.short_description = 'telefone'
 
