@@ -40,6 +40,9 @@ class TalkModelTest(TestCase):
     def test_str(self):
         self.assertEqual('Título da Palestra', self.talk.title)
 
+    def test_ordering(self):
+        self.assertLessEqual(['start'], Talk._meta.ordering)
+
 
 class PeriodManagerTest(TestCase):
     def setUp(self):
@@ -87,3 +90,6 @@ class CourseModelTest(TestCase):
 
     def test_manager(self):
         self.assertIsInstance(Course.objects, PeriodManager)
+
+    def test_ordering(self):
+        self.assertLessEqual(['start'], Course._meta.ordering)
